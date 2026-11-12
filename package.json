@@ -1,0 +1,45 @@
+{
+  "name": "@placeholdermcp/cli",
+  "version": "0.4.0",
+  "description": "PlaceholderMCP CLI - placeholder image generation for developers and coding agents. Text, photo, AI, ascii-art and icon generators. As easy as git.",
+  "bin": {
+    "pmcp": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "placeholdermcp",
+    "placeholder",
+    "placeholder-images",
+    "images",
+    "image-generation",
+    "mcp",
+    "cli",
+    "agent",
+    "coding-agent",
+    "ai-agent",
+    "cursor",
+    "cline",
+    "windsurf",
+    "aider",
+    "codex"
+  ],
+  "author": "PlaceholderMCP, by Tyga.Cloud Ltd (https://placeholdermcp.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://placeholdermcp.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jyswee/placeholdermcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jyswee/placeholdermcp/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
