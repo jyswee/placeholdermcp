@@ -1,6 +1,6 @@
 {
   "name": "@placeholdermcp/cli",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "PlaceholderMCP CLI - placeholder image generation for developers and coding agents. Text, photo, AI, ascii-art and icon generators. As easy as git.",
   "bin": {
     "pmcp": "bin/cli.js"
